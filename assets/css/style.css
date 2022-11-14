@@ -23,3 +23,37 @@ h1, h2 {
     float: left;
     font-size: 250%;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#main-pic {
+    height: 900px;
+    width: 100%;
+    background: url('../images/pexels-blue-bird-custom.jpg') no-repeat center center;
+}
