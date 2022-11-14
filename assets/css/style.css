@@ -9,4 +9,17 @@
 body {
     font-family: Catamaran, sans-serif;
     font-weight: 400;
+    color: #3a3a3a;
+}
+
+h1, h2 {
+    font-family: Sansita, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #262626;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
