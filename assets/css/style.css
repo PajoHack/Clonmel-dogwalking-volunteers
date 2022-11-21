@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -52,8 +53,29 @@ h1, h2 {
     line-height: 75px;
 }
 
+#main-pic-container{
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #main-pic {
     height: 900px;
     width: 100%;
     background: url('../images/pexels-blue-bird-custom.jpg') no-repeat center center;
+
+    animation-name: main-pic-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* animate image */
+
+@keyframes main-pic-zoom {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
 }
