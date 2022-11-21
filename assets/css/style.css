@@ -7,6 +7,7 @@
 }
 
 body {
+    background-color: #f4f4f4;
     font-family: Catamaran, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
@@ -57,6 +58,7 @@ h1, h2 {
     height: 900px;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 #main-pic {
@@ -78,4 +80,35 @@ h1, h2 {
     to {
         transform: scale(1);
     }
+}
+
+#question {
+    text-align: center;
+    margin: auto auto 40px auto;
+    width: 80%;
+}
+
+#site-selling {
+    height: 600px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #333;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.clr {
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    background-color: #3a3a3a;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 25px;
 }
