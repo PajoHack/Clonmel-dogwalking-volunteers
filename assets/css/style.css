@@ -55,14 +55,14 @@ h1, h2 {
 }
 
 #main-pic-container{
-    height: 900px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 40px;
 }
 
 #main-pic {
-    height: 900px;
+    height: 600px;
     width: 100%;
     background: url('../images/pexels-blue-bird-custom.jpg') no-repeat center center;
 
@@ -89,16 +89,22 @@ h1, h2 {
 }
 
 #site-selling {
-    height: 600px;
+    height: 400px;
+}
+
+#site-selling h2 {
+    margin-bottom: 20px;
 }
 
 .block {
     float: left;
     width: 33.3%;
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     padding: 30px;
     box-sizing: border-box;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .clr {
@@ -111,4 +117,8 @@ footer {
     color: #f4f4f4;
     text-align: center;
     padding-top: 25px;
+}
+
+footer a {
+    color: #f4f4f4;
 }
