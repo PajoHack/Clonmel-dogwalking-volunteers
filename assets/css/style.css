@@ -122,3 +122,11 @@ footer {
 footer a {
     color: #f4f4f4;
 }
+
+/* about page */
+
+.about-page {
+    height: 600px;
+    width: 60%;
+    overflow: hidden;
+}
