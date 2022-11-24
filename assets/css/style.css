@@ -6,15 +6,12 @@
     border: none;
 }
 
-html {
-    height: 100%;
-}
-
 body {
     min-height: 100%;
     max-width: 2560px;
     margin: 0 auto;
     background-color: #f4f4f4;
+    font-size: 1rem;
     font-family: Catamaran, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
@@ -40,6 +37,7 @@ h1, h2 {
     color: #fff;
     padding: 10px 15px;
     border: none;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -128,7 +126,7 @@ h1, h2 {
     padding: 30px;
     box-sizing: border-box;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -144,7 +142,7 @@ h1, h2 {
     padding: 30px;
     box-sizing: border-box;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -153,7 +151,7 @@ h1, h2 {
 }
 
 footer {
-    height: 100px;
+    height: 50px;
     width: 100%;
     background-color: #3a3a3a;
     color: #f4f4f4;
@@ -174,6 +172,7 @@ footer a {
 
 .about-page {
     margin: 0 auto;
+    font-size: 1.5rem;
     height: 600px;
     width: 80%;
     overflow: hidden;
