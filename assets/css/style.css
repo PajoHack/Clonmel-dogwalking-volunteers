@@ -7,11 +7,16 @@
 }
 
 body {
+    min-height: 100vh;
+    max-width: 2560px;
+    margin: 0 auto;
     background-color: #f4f4f4;
     font-family: Catamaran, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
+    /* position: absolute; */
 }
+
 
 h1, h2 {
     font-family: Sansita, sans-serif;
@@ -24,6 +29,18 @@ h1, h2 {
     float: left;
     font-size: 250%;
     margin-left: 30px;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background-color: red;
+    color: #fff;
 }
 
 #menu {
@@ -107,6 +124,18 @@ h1, h2 {
     font-weight: bold;
 }
 
+.block2 {
+    /* float: left; */
+    margin: 150px auto;
+    width: 50%;
+    border: 1px solid #333;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .clr {
     clear: both;
 }
@@ -117,16 +146,54 @@ footer {
     color: #f4f4f4;
     text-align: center;
     padding-top: 25px;
+    clear:both;
+    /* position: relative;
+    margin-top: -200px; */
 }
 
 footer a {
     color: #f4f4f4;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /* about page */
 
 .about-page {
+    margin: 0 auto;
     height: 600px;
-    width: 60%;
+    width: 80%;
     overflow: hidden;
+    text-align: left;
 }
+
+.about-page h2 {
+    margin: 50px auto 20px auto;
+    text-align: center;
+}
+
+/* forms */
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+    text-align: left;
+}
+
+.my-form input[type="text"], input[type="email"], textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+select {
+    padding: 8px;
+    width: 50%;
+}
+
