@@ -6,8 +6,12 @@
     border: none;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    min-height: 100vh;
+    min-height: 100%;
     max-width: 2560px;
     margin: 0 auto;
     background-color: #f4f4f4;
@@ -113,6 +117,10 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
+/* #site-selling a {
+    margin: auto;
+} */
+
 .block {
     float: left;
     width: 33.3%;
@@ -122,6 +130,10 @@ h1, h2 {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+}
+
+.block h2 {
+    margin-top: 25px;
 }
 
 .block2 {
@@ -142,13 +154,14 @@ h1, h2 {
 
 footer {
     height: 100px;
+    width: 100%;
     background-color: #3a3a3a;
     color: #f4f4f4;
     text-align: center;
     padding-top: 25px;
-    clear:both;
-    /* position: relative;
-    margin-top: -200px; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 footer a {
@@ -172,7 +185,7 @@ footer a {
     text-align: center;
 }
 
-/* forms */
+/* form */
 
 .my-form {
     padding: 20px;
@@ -194,6 +207,6 @@ footer a {
 
 select {
     padding: 8px;
-    width: 50%;
+    width: 100%;
 }
 
