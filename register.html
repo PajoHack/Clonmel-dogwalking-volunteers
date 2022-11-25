@@ -11,10 +11,14 @@
 </head>
 <body>
 
+    <!--start of header element-->
+
     <header>
+
         <a href="index.html">
             <h1 id="logo">Dog Walking Volunteers</h1>
         </a>
+
         <nav>
             <ul id="menu">
                 <li>
@@ -30,16 +34,15 @@
         </nav>
     </header>
 
-    
+    <div class="clr"></div> <!-- div class clr is used to clear floated log and nav-->
 
-    <div class="clr"></div>
-
+    <!-- section containing the registration form -->
     <section>
         <div class="block2">
 
             <h3>Please Register Here</h3>
 
-            <form action="" method="post" class="my-form">
+            <form action="" method="post" class="reg-form">
 
             <div class="form-group">
 
@@ -50,13 +53,13 @@
                 </select>
 
                 <label for="name">Name: </label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="name" id="name" placeholder="Please enter your name here" required>
 
                 <label for="email">Email: </label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="Please enter your email address">
 
                 <label for="phone">Phone: </label>
-                <input type="text" name="phone" id="phone" required>
+                <input type="text" name="phone" id="phone" placeholder="Your phone number goes here" required>
 
                 <label for="details">More Details: </label>
                 <textarea name="details" id="details" cols="30" rows="10" placeholder="Please provide more details. which days and preferred times etc."></textarea>
@@ -69,7 +72,7 @@
         
     </section>
 
-    <div class="clr"></div>
+    <!-- footer containing social media links -->
 
     <footer>
         <p>CDWV &copy; 2022 | Check out our socials:
@@ -80,6 +83,8 @@
         </p>
 
     </footer>
+
+    <!-- font awesome -->
     
     <script src="https://kit.fontawesome.com/da855886f2.js" crossorigin="anonymous"></script>
     

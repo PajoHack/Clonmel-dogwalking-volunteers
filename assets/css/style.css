@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Sansita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Sansita&display=swap');  /* imported fonts, Catamaran & Sansita*/
 
+/* applies to all elements, removes margin, padding & border */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 
 body {
     min-height: 100%;
@@ -15,14 +17,12 @@ body {
     font-family: Catamaran, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
-    /* position: absolute; */
 }
-
 
 h1, h2 {
     font-family: Sansita, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: .3rem;
     color: #262626;
 }
 
@@ -32,11 +32,14 @@ h1, h2 {
     margin-left: 30px;
 }
 
+/* styles for call to action buttons */
+
 .button {
     background-color: #333;
     color: #fff;
     padding: 10px 15px;
     border: none;
+    border-radius: 30%;
     text-decoration: none;
 }
 
@@ -45,9 +48,11 @@ h1, h2 {
     color: #fff;
 }
 
+/* rules for nav links */
+
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: .25rem;
 }
 
 #menu li {
@@ -70,7 +75,7 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 4.5rem;
 }
 
 #main-pic-container{
@@ -79,6 +84,8 @@ h1, h2 {
     overflow: hidden;
     margin-bottom: 40px;
 }
+
+/* rules for hero image */
 
 #main-pic {
     height: 600px;
@@ -101,12 +108,6 @@ h1, h2 {
     }
 }
 
-#question {
-    text-align: center;
-    margin: auto auto 40px auto;
-    width: 80%;
-}
-
 #site-selling {
     height: 400px;
 }
@@ -115,9 +116,7 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
-/* #site-selling a {
-    margin: auto;
-} */
+/* floated divs in index.html */
 
 .block {
     float: left;
@@ -146,6 +145,8 @@ h1, h2 {
     font-weight: bold;
 }
 
+/* this class is applied to divs to clear floated elements above */
+
 .clr {
     clear: both;
 }
@@ -172,7 +173,8 @@ footer a {
 
 .about-page {
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    line-height: 3.5rem;
     height: 600px;
     width: 80%;
     overflow: hidden;
@@ -180,32 +182,35 @@ footer a {
 }
 
 .about-page h2 {
+    font-size: 2.5rem;
     margin: 50px auto 20px auto;
     text-align: center;
 }
 
-/* form */
+/* registration form */
 
-.my-form {
+.reg-form {
     padding: 20px;
 }
 
-.my-form .form-group {
+.reg-form .form-group {
     padding-bottom: 15px;
 }
 
-.my-form label {
+.reg-form label {
     display: block;
     text-align: left;
 }
 
-.my-form input[type="text"], input[type="email"], textarea {
+.reg-form input[type="text"], input[type="email"], textarea {
     padding: 8px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 select {
     padding: 8px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
