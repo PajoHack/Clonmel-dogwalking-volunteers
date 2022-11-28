@@ -214,3 +214,25 @@ select {
     margin-bottom: 20px;
 }
 
+/* media queries */
+
+/* large to medium screens */
+
+@media screen and (max-width: 1200px) {
+    #site-selling {
+        margin: 0 auto;
+    }
+    .block {
+        width: 65%;
+        height: 35rem;
+        margin-left: 15%;
+    }
+    .about-page {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        margin-bottom: 40px;
+    }
+    .about-page h2 {
+        font-size: 1.5rem;
+    }
+}
