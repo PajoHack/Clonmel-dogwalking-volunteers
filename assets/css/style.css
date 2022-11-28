@@ -48,6 +48,16 @@ h1, h2 {
     background-color: red;
     color: #fff;
 }
+.submit-button {
+    width: 100px;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+}
+.submit-button:hover {
+    background-color: red;
+    color: #fff;
+}
 
 iframe {
     width: 100%;
@@ -246,15 +256,25 @@ select {
 /* mobile phone media queries */
 
 @media screen and (max-width: 950px) {
+    #main-pic-container {
+        height: 300px;
+        width: 100%;
+    }
+    #main-pic {
+        height: 300px;
+        width: 100%;
+        background: url('../images/dog-run-gif.gif') no-repeat center center;
+    }
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
+        
     }
     #menu, #logo {
-        font-size: 100%;
-        line-height: 3.5rem;
+        font-size: 90%;
+        line-height: 2.5rem;
         letter-spacing: .315rem;
     }
     #menu li {
@@ -281,6 +301,9 @@ select {
         margin-bottom: 20px;
         padding-bottom: 10px;
     }
+    .about-page h2 {
+        font-size: 90%;
+    }
     /* iframe {
         display: none;
         visibility: hidden;
@@ -293,5 +316,8 @@ select {
         width: 100%;
         border: none;
         margin: 30px auto;
+    }
+    .block2 h3 {
+        font-size: 80%;
     }
 }
