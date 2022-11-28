@@ -273,9 +273,9 @@ select {
         
     }
     #menu, #logo {
-        font-size: 90%;
+        font-size: 85%;
         line-height: 2.5rem;
-        letter-spacing: .315rem;
+        letter-spacing: .2rem;
     }
     #menu li {
         /* float: right; */
