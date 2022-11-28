@@ -267,12 +267,17 @@ select {
         margin-bottom: 20px;
         padding-bottom: 10px;
     }
-    iframe {
-        /* display: none; */
-        /* visibility: hidden; */
-    }
+    /* iframe {
+        display: none;
+        visibility: hidden;
+    }  */
     footer a {
         margin-right: 5px;
         margin-left: 5px;
+    }
+    .block2 {
+        width: 100%;
+        border: none;
+        margin: 30px auto;
     }
 }
