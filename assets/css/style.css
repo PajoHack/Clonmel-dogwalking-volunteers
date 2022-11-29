@@ -159,6 +159,7 @@ iframe {
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+    background-color: rgba(228, 226, 227, 0.7);
 }
 
 /* this class is applied to divs to clear floated elements above */
@@ -203,6 +204,12 @@ footer a {
     text-align: center;
 }
 
+/* Registration page */
+
+#registration-page {
+    background: url('../images/dog-walk-4.png') no-repeat center center;
+}
+
 /* registration form */
 
 .reg-form {
@@ -222,12 +229,14 @@ footer a {
     padding: 8px;
     width: 100%;
     margin-bottom: 20px;
+    border: 2px solid #333;
 }
 
 select {
     padding: 8px;
     width: 100%;
     margin-bottom: 20px;
+    border: 2px solid #333;
 }
 
 /* media queries */
