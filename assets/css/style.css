@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Sansita&display=swap');  /* imported fonts, Catamaran & Sansita*/
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Sansita&display=swap");  /* imported fonts, Catamaran & Sansita*/
 
 /* applies to all elements, removes margin, padding & border */
 * {
@@ -7,6 +7,10 @@
     border: none;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 body {
     min-height: 100%;
@@ -106,7 +110,7 @@ iframe {
 #main-pic {
     height: 600px;
     width: 100%;
-    background: url('../images/unidentified-person-walking-dogs.jpg') no-repeat center center;
+    background: url("../images/unidentified-person-walking-dogs.jpg") no-repeat center center;
 
     animation-name: main-pic-zoom;
     animation-duration: 5s;
@@ -175,7 +179,7 @@ footer {
     color: #f4f4f4;
     text-align: center;
     padding-top: 25px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
 }
@@ -189,10 +193,10 @@ footer a {
 /* about page */
 
 .about-page {
-    margin: 0 auto;
+    margin: 20px auto;
+    padding: 20px;
     font-size: 1.75rem;
     line-height: 3.5rem;
-    height: 600px;
     width: 80%;
     overflow: hidden;
     text-align: left;
@@ -204,10 +208,16 @@ footer a {
     text-align: center;
 }
 
+.about-page a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Registration page */
 
 #registration-page {
-    background: url('../images/dog-walk-4.png') no-repeat center center;
+    background: url("../images/dog-walk-4.png") no-repeat center center;
 }
 
 /* registration form */
@@ -234,7 +244,7 @@ footer a {
 
 select {
     padding: 8px;
-    width: 100%;
+    width: 102%;
     margin-bottom: 20px;
     border: 2px solid #333;
 }
@@ -272,7 +282,7 @@ select {
     #main-pic {
         height: 300px;
         width: 100%;
-        background: url('../images/dog-run-gif.gif') no-repeat center center;
+        background: url("../images/dog-run-gif.gif") no-repeat center center;
     }
     #menu {
         clear: left;
