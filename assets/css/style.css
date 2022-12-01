@@ -11,11 +11,14 @@
 :root {
     --color-bg: #f4f4f4;
     --content-max-width: 2560px;
+    --footer-height: 50px;
+    --html-position: relative;
+    --min-html-height: 100%;
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+    position: var(--html-position);
+    min-height: var(--min-html-height);
 }
 
 body {
@@ -40,6 +43,11 @@ h1, h2 {
     float: left;
     font-size: 250%;
     margin-left: 30px;
+}
+
+/* Give each section before the footer a margin-bottom */
+section:last-of-type {
+    margin-bottom: calc(var(--footer-height) + 20px);
 }
 
 /* styles for call to action buttons */
@@ -170,6 +178,11 @@ iframe {
     font-weight: bold;
 }
 
+.block img  {
+    height: 300px;
+    width: 400px;
+}
+
 .block h2 {
     margin-top: 25px;
 }
@@ -194,7 +207,7 @@ iframe {
 }
 
 footer {
-    height: 50px;
+    height: var(--footer-height);
     width: 100%;
     background-color: #3a3a3a;
     color: #f4f4f4;
@@ -360,6 +373,7 @@ select {
         width: 100%;
         border: none;
         margin: 30px auto;
+        background: var(--color-bg);
     }
     .block2 h3 {
         font-size: 80%;
