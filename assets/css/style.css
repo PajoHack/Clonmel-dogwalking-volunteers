@@ -8,6 +8,11 @@
     border: none;
 }
 
+:root {
+    --color-bg: #f4f4f4;
+    --content-max-width: 2560px;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -15,9 +20,9 @@ html {
 
 body {
     min-height: 100%;
-    max-width: 2560px;
+    max-width: var(--content-max-width);
     margin: 0 auto;
-    background-color: #f4f4f4;
+    background-color: var(--color-bg);
     font-size: 1rem;
     font-family: Catamaran, sans-serif;
     font-weight: 400;
