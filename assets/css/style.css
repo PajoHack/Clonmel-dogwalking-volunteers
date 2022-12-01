@@ -364,4 +364,8 @@ select {
     .block2 h3 {
         font-size: 80%;
     }
+    .block2 img {
+        height: 200px;
+        width: 200px;
+    }
 }
