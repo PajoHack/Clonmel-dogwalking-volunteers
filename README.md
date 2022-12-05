@@ -5,6 +5,8 @@ People who use this site can register as either a dog owner or a volunteer. We w
 
 [View the live project here](https://pajohack.github.io/Clonmel-dogwalking-volunteers/index.html)
 
+Screenshot taken from amiresponsive.co.uk
+
 ![Screenshot from amiresponsive.co.uk/](assets/images/am-i-responsive.png)
 
 ## Features
@@ -18,6 +20,8 @@ People who use this site can register as either a dog owner or a volunteer. We w
    - The logo and navigation are consistant across all pages of the site.
    - The font color contrasts nicely against the background color making it clear and easy to read.
 
+![Screenshot of logo & navigation](assets/images/logo-navigation.png)
+
 ----
 
 - Home Page
@@ -28,6 +32,9 @@ People who use this site can register as either a dog owner or a volunteer. We w
    - The "Read More" button brings the user to the about page where more can be read about the purpose of the site and how the idea came about.
    - The "Register" button takes users to the register page. Here the user can register with the site as either a dog owner or volunteer.
 
+![Screenshot of hero image / animated gif](assets/images/hero-image-animated-gif.png)
+![Screenshot of the read more section of the home page](assets/images/read-more.png)
+
 ----
 
 - About Page
@@ -35,6 +42,8 @@ People who use this site can register as either a dog owner or a volunteer. We w
   - The about page contains a section explaining the goal of the site and who it is for.
   - There is a large call to action button which brings the user to the register page where they can complete the registration page.
   - Below the call to action button is a map of the Clonmel area.
+
+![Screenshot of the about page](assets/images/about-page.png)
 
 ----
 
@@ -49,7 +58,17 @@ People who use this site can register as either a dog owner or a volunteer. We w
   - When the required info is provided and the submit button is clicked, the form data is submitted.
 
 ![image of the registration form](assets/images/registration-form.png)
-  ----
+
+----
+
+- 404 Page
+
+  - This is the 404 page users will see if they enter an incorrect url.
+  - Users can return to the home page by either clicking the home icon or by using the navigation links.
+
+![Screenshot of 404 page](assets/images/404.png)
+
+----
 
 - Footer
 
@@ -58,3 +77,28 @@ People who use this site can register as either a dog owner or a volunteer. We w
   - When clicked these links open in a new tab.
 
 ![image of the footer](assets/images/footer.png)
+
+----
+
+## Testing
+
+
+- Functionality
+
+| Test Label                           | Test Action            | Expected Outcome                                                    | Test Outcome  |   |   |   |   |   |   |
+|--------------------------------------|------------------------|---------------------------------------------------------------------|---------------|---|---|---|---|---|---|
+| Logo navigation                      | Click logo             | User taken to home page from anywhere on the site                   | PASS          |   |   |   |   |   |   |
+| Navigation links                     | Click each nav link    | The user is navigated to the correct page from anywhere on the site | PASS          |   |   |   |   |   |   |
+| Read More first button on home page  | Hover over button      | Backgroung color changes to red                                     | PASS          |   |   |   |   |   |   |
+| Read More first button on home page  | Click Read More Button | Taken to the about page                                             | PASS          |   |   |   |   |   |   |
+| Read More second button on home page | Hover over button      | Backgroung color changes to red                                     | PASS          |   |   |   |   |   |   |
+| Read More second button on home page | Click Read More Button | Taken to the about page                                             | PASS          |   |   |   |   |   |   |
+| Register button on home page         | Hover over button      | Backgroung color changes to red                                     | PASS          |   |   |   |   |   |   |
+| Register button on home page         | Click Register button  | Taken to the register page                                          | PASS          |   |   |   |   |   |   |
+| Social media icon in footer          | Click each icon        | User taken to the expected social media platform                    | PASS          |   |   |   |   |   |   |
+
+
+- Browser Compatibility
+
+  - The website was tested in different browsers and works well in all.
+  - Browsers used: Chrome, FireFox, Edge and Safari.
