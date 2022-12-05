@@ -27,7 +27,7 @@ Screenshot taken from amiresponsive.co.uk
 - Home Page
 
    - The home page contains a hero image on high resolution screens and is replaced with an animated gif on mobile devices.
-   - Next the user will see three divisions with a sentence each giving a brief summary of the site.
+   - Next the user will see three divisions with a sentence in each giving a brief summary of the site.
    - This section also contains three call to action buttons encouraging the user to either read more or register their interest.
    - The "Read More" button brings the user to the about page where more can be read about the purpose of the site and how the idea came about.
    - The "Register" button takes users to the register page. Here the user can register with the site as either a dog owner or volunteer.
@@ -54,7 +54,7 @@ Screenshot taken from amiresponsive.co.uk
   - Next the user enters their name in a text input which is also a required field.
   - The email field is not an as required field. This is intentional as perhaps some older user may not have an email address.
   - The phone number field is a required field.
-  - In the more details textarea, users can provide more details such as their preferred dats and times.
+  - In the more details textarea, users can provide more details such as their preferred days and times.
   - When the required info is provided and the submit button is clicked, the form data is submitted.
 
 ![image of the registration form](assets/images/registration-form.png)
@@ -85,20 +85,61 @@ Screenshot taken from amiresponsive.co.uk
 
 - Functionality
 
-| Test Label                           | Test Action            | Expected Outcome                                                    | Test Outcome  |   |   |   |   |   |   |
-|--------------------------------------|------------------------|---------------------------------------------------------------------|---------------|---|---|---|---|---|---|
-| Logo navigation                      | Click logo             | User taken to home page from anywhere on the site                   | PASS          |   |   |   |   |   |   |
-| Navigation links                     | Click each nav link    | The user is navigated to the correct page from anywhere on the site | PASS          |   |   |   |   |   |   |
-| Read More first button on home page  | Hover over button      | Backgroung color changes to red                                     | PASS          |   |   |   |   |   |   |
-| Read More first button on home page  | Click Read More Button | Taken to the about page                                             | PASS          |   |   |   |   |   |   |
-| Read More second button on home page | Hover over button      | Backgroung color changes to red                                     | PASS          |   |   |   |   |   |   |
-| Read More second button on home page | Click Read More Button | Taken to the about page                                             | PASS          |   |   |   |   |   |   |
-| Register button on home page         | Hover over button      | Backgroung color changes to red                                     | PASS          |   |   |   |   |   |   |
-| Register button on home page         | Click Register button  | Taken to the register page                                          | PASS          |   |   |   |   |   |   |
-| Social media icon in footer          | Click each icon        | User taken to the expected social media platform                    | PASS          |   |   |   |   |   |   |
+| Test Label                             | Test Action                | Expected Outcome                                                    | Test Outcome  |
+|----------------------------------------|----------------------------|---------------------------------------------------------------------|---------------|
+| Logo navigation                        | Click logo                 | User taken to home page from anywhere on the site                   | PASS          |
+| Navigation links                       | Click each nav link        | The user is navigated to the correct page from anywhere on the site | PASS          |
+| Read More first button on home page    | Hover over button          | Backgroung color changes to red                                     | PASS          |
+| Read More first button on home page    | Click Read More Button     | Taken to the about page                                             | PASS          |
+| Read More second button on home page   | Hover over button          | Backgroung color changes to red                                     | PASS          |
+| Read More second button on home page   | Click Read More Button     | Taken to the about page                                             | PASS          |
+| Register button on home page           | Hover over button          | Backgroung color changes to red                                     | PASS          |
+| Register button on home page           | Click Register button      | Taken to the register page                                          | PASS          |
+| Social media icon in footer            | Click each icon            | User taken to the expected social media platform                    | PASS          |
+| Register here button on the about page | Hover over button          | Backgroung color changes to red                                     | PASS          |
+| Register here button on the about page | Click register here button | Navigated to the register page                                      | PASS          |
+| Register form dropdown                 | Select an option           | User can select either Dog owner or volunteer                       | PASS          |
+| Register form name text input          | Add text                   | User is able to type letters in this field                          | PASS          |
+| Register form email input              | Enter email                | User is able to add an email address                                | PASS          |
+| Register form phone text field         | Add text                   | User can add their phone number as text                             | PASS          |
+| Register form more details textarea    | Add text                   | User can add multi line text here                                   | PASS          |
+| Register form submit button            | Hover over button          | Backgroung color changes to red                                     | PASS          |
+| Register form submit button            | Click Submit button        | form data is posted to "https://formdump.codeinstitute.net"         | PASS          |
 
 
 - Browser Compatibility
 
-  - The website was tested in different browsers and works well in all.
+  - The website was tested in different browsers and works well in each one.
   - Browsers used: Chrome, FireFox, Edge and Safari.
+
+<br>
+
+- Responsivness
+
+  - I used Google Developer tools to check the responsivness of the site on different screen sizes. The site responded well to very large screens such as iMac Pro, medium screens such as iPad Pro and very small screens such as iPhone SE.
+
+----
+
+## Deployment
+
+The site was deployed via GitHub Pages. This is achieved through your GitHub repository by clicking on settings and selecting "Pages" in the code and automation section. Under the "Build and deployment" heading use deploy from a branch option. Then under the "Branch" heading select master branch. After a few moments a link to the live project is created and availble to browse and share. 
+
+Any alterations made to the files can be pushed to GitHub with the "git push" command in the terminal. GitHub Pages picks up the changes and updates the live site after a moment or two.
+
+Users can download a copy of the files in this project to their local computer by cloning the repository. There are three ways of doing this, download a Zip, use SSH or using HTTPS.
+
+----
+
+## Credits
+
+- Content
+
+  - The logo, hero image and navigation elements of the site were based on those that I learned about in the Love Running walkthrough project.
+  - The idea for the map of Clonmel on the about page came from the Coders Coffeehouse walkthrough.
+
+<br>
+
+- Media
+
+  - The hero image on the home page was taken from [Pexels](https://www.pexels.com/photo/unrecognizable-woman-walking-dogs-on-leashes-in-countryside-7210754/)
+  - The dog illustrations on the home page were taken from [DrawKit](https://www.drawkit.com/product/animal-pets-illustrations)
