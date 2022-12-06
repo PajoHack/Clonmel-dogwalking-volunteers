@@ -46,6 +46,7 @@ h1, h2 {
 }
 
 /* Give each section before the footer a margin-bottom */
+
 section:last-of-type {
     margin-bottom: calc(var(--footer-height) + 20px);
 }
@@ -170,7 +171,6 @@ iframe {
     float: left;
     width: 33.3%;
     margin-top: 40px;
-    /* border: 1px solid #333; */
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
@@ -188,7 +188,6 @@ iframe {
 }
 
 .block2 {
-    /* float: left; */
     margin: 150px auto;
     width: 50%;
     border: 1px solid #333;
@@ -253,10 +252,6 @@ footer a {
 }
 
 /* Registration page */
-
-#registration-page {
-    background: url("../images/dog-walk-4.png") no-repeat center center;
-}
 
 /* registration form */
 

@@ -3,11 +3,15 @@
 The dog walking volunteers website was created to connect Clonmel dog owners with people kind enough to offer up some time to help walk their dogs.
 People who use this site can register as either a dog owner or a volunteer. We will then be able to connect people based on the details provided with the registration form.
 
+The purpose of the site is clearly outlined on the home page. Three side by side sections contain a sentence and a call to action button encouraging users to explore more of the site.
+
 [View the live project here](https://pajohack.github.io/Clonmel-dogwalking-volunteers/index.html)
 
 Screenshot taken from amiresponsive.co.uk
 
 ![Screenshot from amiresponsive.co.uk/](assets/images/am-i-responsive.png)
+
+<br>
 
 ## Features
 
@@ -22,6 +26,8 @@ Screenshot taken from amiresponsive.co.uk
 
 ![Screenshot of logo & navigation](assets/images/logo-navigation.png)
 
+<br>
+
 ----
 
 - Home Page
@@ -35,6 +41,8 @@ Screenshot taken from amiresponsive.co.uk
 ![Screenshot of hero image / animated gif](assets/images/hero-image-animated-gif.png)
 ![Screenshot of the read more section of the home page](assets/images/read-more.png)
 
+<br>
+
 ----
 
 - About Page
@@ -44,6 +52,8 @@ Screenshot taken from amiresponsive.co.uk
   - Below the call to action button is a map of the Clonmel area.
 
 ![Screenshot of the about page](assets/images/about-page.png)
+
+<br>
 
 ----
 
@@ -59,6 +69,8 @@ Screenshot taken from amiresponsive.co.uk
 
 ![image of the registration form](assets/images/registration-form.png)
 
+<br>
+
 ----
 
 - 404 Page
@@ -67,6 +79,8 @@ Screenshot taken from amiresponsive.co.uk
   - Users can return to the home page by either clicking the home icon or by using the navigation links.
 
 ![Screenshot of 404 page](assets/images/404.png)
+
+<br>
 
 ----
 
@@ -77,6 +91,8 @@ Screenshot taken from amiresponsive.co.uk
   - When clicked these links open in a new tab.
 
 ![image of the footer](assets/images/footer.png)
+
+<br>
 
 ----
 
@@ -106,6 +122,7 @@ Screenshot taken from amiresponsive.co.uk
 | Register form submit button            | Hover over button          | Backgroung color changes to red                                     | PASS          |
 | Register form submit button            | Click Submit button        | form data is posted to "https://formdump.codeinstitute.net"         | PASS          |
 
+<br>
 
 - Browser Compatibility
 
@@ -117,6 +134,8 @@ Screenshot taken from amiresponsive.co.uk
 - Responsivness
 
   - I used Google Developer tools to check the responsivness of the site on different screen sizes. The site responded well to very large screens such as iMac Pro, medium screens such as iPad Pro and very small screens such as iPhone SE.
+  - On smaller screens the hero image is replaced with an anomated gif.
+  - Also on smaller screens the logo size is reduced and the navigation links are moved under the header.
 
 <br>
 
@@ -130,15 +149,34 @@ Screenshot taken from amiresponsive.co.uk
 
 ![Lighthouse screenshot](assets/images/lighthouse-validator-testing-desktop.png)
 
+<br>
+
+----
+
+## Bugs
+
+- Squashed Bugs
+
+  - When I ran initially used the W3C HTML validator, it failed as I was using deprecated attributes on the iframe containing the map. Namely scrolling and frameborder. I removed these attributes and instead used rules in my css file. The validator was happy after doing this. 
+
+<br>
+
+- Unfixed Bugs
+  - There are no unfixed bugs.
+
+<br>
+
 ----
 
 ## Deployment
 
-The site was deployed via GitHub Pages. This is achieved through your GitHub repository by clicking on settings and selecting "Pages" in the code and automation section. Under the "Build and deployment" heading use deploy from a branch option. Then under the "Branch" heading select master branch. After a few moments a link to the live project is created and availble to browse and share. 
+- The site was deployed via GitHub Pages. This is achieved through your GitHub repository by clicking on settings and selecting "Pages" in the code and automation section. Under the "Build and deployment" heading use deploy from a branch option. Then under the "Branch" heading select master branch. After a few moments a link to the live project is created and availble to browse and share. 
 
-Any alterations made to the files can be pushed to GitHub with the "git push" command in the terminal. GitHub Pages picks up the changes and updates the live site after a moment or two.
+- Any alterations made to the files can be pushed to GitHub with the "git push" command in the terminal. GitHub Pages picks up the changes and updates the live site after a moment or two.
 
-Users can download a copy of the files in this project to their local computer by cloning the repository. There are three ways of doing this, download a Zip, use SSH or using HTTPS.
+- Users can download a copy of the files in this project to their local computer by cloning the repository. There are three ways of doing this, download a Zip, use SSH or using HTTPS.
+
+<br>
 
 ----
 
@@ -146,8 +184,9 @@ Users can download a copy of the files in this project to their local computer b
 
 - Content
 
-  - The logo, hero image and navigation elements of the site were based on those that I learned about in the Love Running walkthrough project.
-  - The idea for the map of Clonmel on the about page came from the Coders Coffeehouse walkthrough.
+  - The logo, hero image and navigation elements of the site were based on those that I learned about in the CI Love Running walkthrough project.
+  - The idea for fontawesome social media icons in the footer came from the CI Love Running walkthrough project.
+  - The idea for the map of Clonmel on the about page came from the Coders CI Coffeehouse walkthrough.
 
 <br>
 
@@ -155,3 +194,18 @@ Users can download a copy of the files in this project to their local computer b
 
   - The hero image on the home page was taken from [Pexels](https://www.pexels.com/photo/unrecognizable-woman-walking-dogs-on-leashes-in-countryside-7210754/)
   - The dog illustrations on the home page were taken from [DrawKit](https://www.drawkit.com/product/animal-pets-illustrations)
+
+  <br>
+
+----
+
+## Technologies Used
+
+<br>
+
+- HTML5
+- CSS3
+
+<br>
+
+----
