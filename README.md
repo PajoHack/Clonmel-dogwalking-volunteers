@@ -118,6 +118,18 @@ Screenshot taken from amiresponsive.co.uk
 
   - I used Google Developer tools to check the responsivness of the site on different screen sizes. The site responded well to very large screens such as iMac Pro, medium screens such as iPad Pro and very small screens such as iPhone SE.
 
+<br>
+
+- Validation
+
+  - HTML. After using the W3C validator, no errors were found.
+  - CSS. After using Jigsaw validator, no errors were present.
+  - Accessibility. I confirmed that the site meets the required needs by using lighthouse to validate.
+
+<br>
+
+![Lighthouse screenshot](assets/images/lighthouse-validator-testing-desktop.png)
+
 ----
 
 ## Deployment

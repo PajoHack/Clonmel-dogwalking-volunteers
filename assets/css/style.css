@@ -260,6 +260,10 @@ footer a {
 
 /* registration form */
 
+input:focus, textarea:focus {
+    outline: 5px solid aqua;
+}
+
 .reg-form {
     padding: 20px;
     box-sizing: border-box;
