@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Sansita&display=swap");  /* imported fonts, Catamaran & Sansita*/
+/* imported fonts, Catamaran & Sansita*/
+
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Sansita&display=swap");  
 
 /* applies to all elements, removes margin, padding & border */
 
@@ -7,6 +9,8 @@
     padding: 0;
     border: none;
 }
+
+/* root element variables */
 
 :root {
     --color-bg: #f4f4f4;
@@ -20,6 +24,8 @@ html {
     position: var(--html-position);
     min-height: var(--min-html-height);
 }
+
+/* main rules for each page */
 
 body {
     min-height: 100%;
@@ -45,7 +51,7 @@ h1, h2 {
     margin-left: 30px;
 }
 
-/* Give each section before the footer a margin-bottom */
+/* give each section before the footer a margin-bottom */
 
 section:last-of-type {
     margin-bottom: calc(var(--footer-height) + 20px);
@@ -68,6 +74,7 @@ section:last-of-type {
     background-color: red;
     color: #fff;
 }
+
 .submit-button {
     width: 100px;
     padding: 15px;
@@ -75,6 +82,7 @@ section:last-of-type {
     color: #fff;
     text-decoration: none;
 }
+
 .submit-button:hover {
     background-color: red;
     color: #fff;
@@ -140,7 +148,6 @@ iframe {
     height: 600px;
     width: 100%;
     background: url("../images/unidentified-person-walking-dogs.jpg") no-repeat center center;
-
     animation-name: main-pic-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -156,6 +163,8 @@ iframe {
         transform: scale(1);
     }
 }
+
+/* main content area rules in index.html */
 
 #site-selling {
     height: 400px;
@@ -187,6 +196,8 @@ iframe {
     margin-top: 25px;
 }
 
+/* rules for div on register page */
+
 .block2 {
     margin: 150px auto;
     width: 50%;
@@ -204,6 +215,8 @@ iframe {
 .clear-floated-elements {
     clear: both;
 }
+
+/* footer rules */
 
 footer {
     height: var(--footer-height);
@@ -223,7 +236,7 @@ footer a {
     margin-left: 15px;
 }
 
-/* about page */
+/* about page rules */
 
 .about-page {
     margin: 20px auto;
@@ -251,7 +264,7 @@ footer a {
     margin-top: 50px;
 }
 
-/* Registration page */
+/* register page rules */
 
 /* registration form */
 
@@ -330,8 +343,7 @@ select {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin-bottom: 20px;
-        
+        margin-bottom: 20px;  
     }
     #menu, #logo {
         font-size: 85%;
