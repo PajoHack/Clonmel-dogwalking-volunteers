@@ -17,8 +17,6 @@ Screenshot taken from amiresponsive.co.uk
 
 ## Features
 
-----
-
 - Navigation
 
    - The top left of each page displays the site logo. When clicked it navigates you back to the home page.
@@ -87,10 +85,14 @@ Screenshot taken from amiresponsive.co.uk
 
 ![image of the footer](assets/images/footer.png)
 
+- Features Left to Implement
+
+  - Create a success page or feature to give the user affirmation that the form data was successfully sent/ received.
+  - implement a monthly news letter that users can signup for.
+
 <br>
 
 ## Testing
-----
 
 - Functionality
 
@@ -146,7 +148,6 @@ Screenshot taken from amiresponsive.co.uk
 <br>
 
 ## Bugs
-----
 
 - Squashed Bugs
 
@@ -160,7 +161,6 @@ Screenshot taken from amiresponsive.co.uk
 <br>
 
 ## Deployment
-----
 
 - The site was deployed via GitHub Pages. This is achieved through your GitHub repository by clicking on settings and selecting "Pages" in the code and automation section. Under the "Build and deployment" heading use deploy from a branch option. Then, under the "Branch" heading, select master branch. After a few moments a link to the live project is created and available to browse and share. 
 
@@ -173,13 +173,13 @@ Screenshot taken from amiresponsive.co.uk
 <br>
 
 ## Credits
-----
 
 - Content
 
   - The logo, hero image and navigation elements of the site were based on those that I learned about in the CI Love Running walkthrough project.
   - The idea for fontawesome social media icons in the footer came from the CI Love Running walkthrough project.
   - The idea for the map of Clonmel on the about page came from the CI Coders Coffeehouse walkthrough.
+  - The floated divs along with class name on the home page came from a YouTube tutorial by [Traversy Media](https://www.youtube.com/watch?v=yfoY53QXEnI&t=3009s)
 
 <br>
 
@@ -188,11 +188,11 @@ Screenshot taken from amiresponsive.co.uk
   - The hero image on the home page was taken from [Pexels](https://www.pexels.com/photo/unrecognizable-woman-walking-dogs-on-leashes-in-countryside-7210754/)
   - The dog illustrations on the home page were taken from [DrawKit](https://www.drawkit.com/product/animal-pets-illustrations)
   - The social media icons were taken from [Fontawesome](https://fontawesome.com/)
+  - The animated gif was taken from [Giphy](https://giphy.com/stickers/dog-run-dogs-J1GGJmqOk8DcpCyACR)
 
   <br>
 
 ## Technologies & Tools Used
-----
 
 <br>
 

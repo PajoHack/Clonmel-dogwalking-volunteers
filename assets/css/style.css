@@ -174,9 +174,10 @@ iframe {
     margin-bottom: 20px;
 }
 
-/* floated divs in index.html */
+/* floated divs in index.html are called block */
 
 .block {
+    position: relative;
     float: left;
     width: 33.3%;
     margin-top: 40px;
@@ -197,6 +198,8 @@ iframe {
 }
 
 /* rules for div on register page */
+
+/* block2 is the div containing the registration form */
 
 .block2 {
     margin: 150px auto;
@@ -277,7 +280,7 @@ input:focus, textarea:focus {
     box-sizing: border-box;
 }
 
-.reg-form .form-group {
+.reg-form {
     padding-bottom: 15px;
     box-sizing: border-box;
 }
@@ -305,6 +308,8 @@ select {
 }
 
 /* media queries */
+
+/* the media query breakponits are the same ones used in the CI love running project */
 
 /* large to medium screens */
 
