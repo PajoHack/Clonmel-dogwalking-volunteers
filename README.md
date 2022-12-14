@@ -152,11 +152,12 @@ Screenshot taken from amiresponsive.co.uk
 - Squashed Bugs
 
   - When I initially used the W3C HTML validator, it failed as I was using deprecated attributes on the iframe containing the map. Namely scrolling and frameborder. I removed these attributes and instead used rules in my css file. The validator was happy after doing this. 
+  - After deployment the link to the 404 page not found image was broken. I had accidentally deleted the image in development. Adding the image back into the images folder solved the issue.
 
 <br>
 
 - Unfixed Bugs
-  - There are no unfixed bugs.
+  - There are no unfixed bugs that I can find.
 
 <br>
 
