@@ -11,7 +11,7 @@ The purpose of the site is clearly outlined on the home page. Three side-by-side
 
 Screenshot taken from amiresponsive.co.uk
 
-![Screenshot from https://ui.dev/amiresponsive](assets/images/am-i-responsive.png)
+![Screenshot from https://ui.dev/amiresponsive](documentation/am-i-responsive.png)
 
 <br>
 
@@ -26,7 +26,7 @@ Screenshot taken from amiresponsive.co.uk
 
 <br>
 
-![Screenshot of logo & navigation](assets/images/logo-navigation.png)
+![Screenshot of logo & navigation](documentation/logo-navigation.png)
 
 <br>
 
@@ -38,8 +38,8 @@ Screenshot taken from amiresponsive.co.uk
    - The "Read More" button brings the user to the about page where more can be read about the purpose of the site and how the idea came about.
    - The "Register" button takes users straight to the register page. Here the user can register with the site as either a dog owner or volunteer.
 
-![Screenshot of hero image / animated gif](assets/images/hero-image-animated-gif.png)
-![Screenshot of the read more section of the home page](assets/images/read-more.png)
+![Screenshot of hero image / animated gif](documentation/hero-image-animated-gif.png)
+![Screenshot of the read more section of the home page](documentation/read-more.png)
 
 <br>
 
@@ -49,7 +49,7 @@ Screenshot taken from amiresponsive.co.uk
   - There is a large call to action button which brings the user to the register page where they can complete the registration form.
   - Below the call-to action button is a map of the Clonmel area. Showing users the area where this service is based.
 
-![Screenshot of the about page](assets/images/about-page.png)
+![Screenshot of the about page](documentation/about-page.png)
 
 <br>
 
@@ -64,7 +64,7 @@ Screenshot taken from amiresponsive.co.uk
   - The inputs and textarea are outlined with a bright border when the user clicks into the fields.
   - When the required info is provided and the submit button is clicked, the form data is submitted.
 
-![image of the registration form](assets/images/registration-form.png)
+![image of the registration form](documentation/registration-form.png)
 
 <br>
 
@@ -73,7 +73,7 @@ Screenshot taken from amiresponsive.co.uk
   - This is the 404 page users will see if they enter an incorrect url.
   - Users can return to the home page by either clicking the home icon or by using the navigation links.
 
-![Screenshot of 404 page](assets/images/404.png)
+![Screenshot of 404 page](documentation/404.png)
 
 <br>
 
@@ -83,7 +83,7 @@ Screenshot taken from amiresponsive.co.uk
   - It contains a Copyright symbol and fontawesome icons which are also links to social media sites.
   - When clicked, the links open in a new tab which allows easy navigation and keeps this site open in the browser.
 
-![image of the footer](assets/images/footer.png)
+![image of the footer](documentation/footer.png)
 
 - Features Left to Implement
 
@@ -143,7 +143,7 @@ Screenshot taken from amiresponsive.co.uk
 
 <br>
 
-![Lighthouse screenshot](assets/images/lighthouse-validator-testing-desktop.png)
+![Lighthouse screenshot](documentation/lighthouse-validator-testing-desktop.png)
 
 <br>
 
