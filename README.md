@@ -61,7 +61,7 @@ Screenshot taken from amiresponsive.co.uk
   - The email field is not an as required field. This is intentional as perhaps some older user may not have an email address.
   - The phone number field is a required field.
   - In the more details textarea, users can provide more details such as their preferred days and times. This field is also required.
-  - The inputs and textarea are outlined with a bright border when the user clicks into the fields.
+  - The inputs and textarea are outlined with a bright border when the user clicks into the fields. Even though the call out buttons are red, when hovered over, I decided against a red border, as this might make the user believe that an error has accoured. I opted for aqua instead.
   - When the required info is provided and the submit button is clicked, the form data is submitted.
 
 ![image of the registration form](documentation/registration-form.png)
